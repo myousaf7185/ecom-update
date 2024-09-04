@@ -12,6 +12,7 @@ import Login1 from './Pages/login1';
 import Signup1 from './Pages/Signup1';
 import Navbar1 from './Component/Navbar1';
 import Shop from './Pages/Shop';
+import Product from './seller/pages/Product';
 function App() {
   return (
     <>
@@ -26,6 +27,8 @@ function App() {
         <Route path="/login1" element={<Login1/>} />
         <Route path="/signup1" element={<Signup1/>} />
         <Route path="/shop" element={<Shop/>} />
+        <Route path="/product" element={<Product/>} />
+        <Route path="/dashboard" element={<Dashboard/>} />
 
 
       </Routes>
