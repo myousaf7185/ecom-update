@@ -1,0 +1,27 @@
+.loginbody{
+    display: flex;
+    /* background-image: url ('./images/bg.jpg'); */
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 100%;
+}
+
+
+.input-group-text {
+    width: 50px; /* Adjust width if needed */
+    text-align: center; /* Center icon within the span */
+}
+.form-control {
+    border-left: 0; /* Remove left border to avoid double border */
+}
+
+    .login-container {
+        background-color: rgba(0, 0, 0, 0.5);
+        height: 370px;
+        width: 390px;
+        margin: 50px;
+        border-radius: 8px; /* Optional */
+        color: white;       /* Optional */
+        padding: 20px;      /* Optional */
+    }
